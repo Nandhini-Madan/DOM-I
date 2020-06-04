@@ -107,6 +107,30 @@ footer_p.textContent=siteContent["footer"]["copyright"];
 
 console.log(footer_p);
 
+let color_change=document.querySelectorAll('a');
+color_change.forEach(Element=>{
+  Element.style.color="green";
+});
+
+let test1=document.createElement('a');
+test1.textContent="test1";
+nav_a[5].appendChild(test1);
+
+let test2=document.createElement('a');
+test2.textContent="test2";
+nav_a[6].prepend(test2);
+
+console.log(cta_h1.textContent);
+
+let br1=doument.createElement('br');
+let words=cta_h1.textContent.split(' ');
+cta_h1.appendChild(br1);
+
+
+
+
+
+
 
 
 
